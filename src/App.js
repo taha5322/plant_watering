@@ -225,13 +225,10 @@ export default class App extends Component {
 
         for (let i = 0; i < arr.length; i++) {
             let lastWatered = arr[i].date.trim();
-            console.log(lastWatered)
-            console.log(lastWatered.length)
             if (lastWatered.length == 21) {
                 
                 lastWatered = lastWatered.slice(0, 11) + "0" + lastWatered.slice(11, 21)
             }
-            console.log(lastWatered)
 
             let year = lastWatered.slice(0, 4) ;
             let date = lastWatered.slice(8, 10);
@@ -256,12 +253,13 @@ export default class App extends Component {
 
             let realDate = new Date(formatString);
             let y = new Date();
-            ////used for testing functionality for 6 hours of no watering
+            //used for testing functionality for 6 hours of no watering
             //if (i == 1) {
             //    y.setHours(y.getHours() + 5);
-            //   y.setMinutes(y.getMinutes() + 59);
+            //    y.setMinutes(y.getMinutes() + 59);
             //    y.setSeconds(y.getSeconds() + 50);
             //}
+
             let milis = (y - realDate)
             let numOfSeconds = parseInt(milis / 1000)
             let numOfHours = parseInt(numOfSeconds / 3600)
@@ -497,7 +495,7 @@ export default class App extends Component {
         const data = await response.json();
         let newArr = Array.from(data);
         newArr.splice(-1);
-        console.log(newArr)
+        //console.log(newArr) 
 
         this.setState({ forecasts: newArr, loading: false });
     }
