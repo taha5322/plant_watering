@@ -1,6 +1,9 @@
 # Plant watering program
 
-The following project was completed in React and .NET core for shipvista's coding challenge
+The following project was completed in React and .NET core for shipvista's coding challenge.
+<br>
+<br>NOTE: This current repo ONLY CONTAINS the front end(React) code while the following repo contains the backend(.NET core) code:
+<br> https://github.com/taha5322/plant_watering_backend
 
 ## App functionality
 
