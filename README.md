@@ -1,13 +1,33 @@
-# Getting Started with Create React App
+# Plant watering program
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The following project was completed in React and .NET core for shipvista's coding challenge
 
-## Available Scripts
+## App functionality
 
-In the project directory, you can run:
+Shows an example of the various states of the webapp:
 
-### `npm start`
+### ![base screen img](https://github.com/taha5322/plant_watering/blob/master/src/github_pictures/base_screen.PNG)
+### 1. Home/Base screen
+### .
 
+### ![cooldown screen img](https://github.com/taha5322/plant_watering/blob/master/src/github_pictures/watering.PNG)
+### 2. Watering 
+### .
+
+### ![cooldown screen img](https://github.com/taha5322/plant_watering/blob/master/src/github_pictures/post_watered.PNG)
+### 3. Updated plant data after 10 s has passed
+### .
+
+### ![cooldown screen img](https://github.com/taha5322/plant_watering/blob/master/src/github_pictures/cooldown_alert.PNG)
+### 4. Plant cooldown alert
+### .
+
+### ![cooldown screen img](https://github.com/taha5322/plant_watering/blob/master/src/github_pictures/unwatered_plant.PNG)
+### 5. What happens when a plant hasn't been watered in 6 hrs
+(Used dummy code to simulate what 6 hours of no watering would look like which is why the "last watered" isn't 6 hours prior)
+
+
+<!-- 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
@@ -68,3 +88,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ -->
